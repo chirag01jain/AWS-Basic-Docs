@@ -1,0 +1,22 @@
+# AWS Cloudwatch ::
+
+It provides a reliable, scalable, and flexible monitoring solution to monitor your aws resources like EC2 instance, EBS Volumes, DynamoDB tables, RDS DB instances in real time. Amazon CloudWatch functionality is accessible via API, command-line tools, the AWS SDK, and the AWS Management Console.
+
+> Metrics (custom) - CPU Utilization, Latency, data transfer, Request count, HTTP reqs, memory/disk usage, error rates
+> Access up to the minute statistics, view graphs and set alarms for metric data 
+> Monitor Amazon EC2
+> Monitor Other resources like Monitor metrics on Amazon DynamoDB tables, Amazon EBS volumes, Amazon RDS DB instances, Amazon Elastic MapReduce job flows, Elastic Load Balancers, Amazon SQS queues, Amazon SNS topics, and more for no additional charge.
+> Set Alarms
+> View Graphs and statistics : Amazon Cloudwatch Dashboards enable you to create re-usable graphs of AWS resources and custom metrics so you can quickly monitor operational status and identify issues at a glance. 
+> Metric data is kept for two weeks enabling you to view up to the minute data and also historical data.
+> You can also use Auto Scaling to add or remove Amazon EC2 instances dynamically based on your Amazon CloudWatch metrics.
+
+### **Pricing ::**
+
+**_FREE TIER_**: Each month, new and existing Amazon CloudWatch customers receive 10 metrics (applicable to Detailed Monitoring for Amazon EC2 instances or Custom Metrics), 10 alarms, and 1 million API requests each month at no additional charge. 5 GB of data ingestion and 5 GB of archived storage per month. 
+
+a) Basic Monitoring for EC2, EBS free at 5-min frequency, rest $3.50 per instance/month 4 Detailed Monitoring at 1min  
+b) 3 Dashboard free upto 50 metric & rest, $3.00 per dashboard per month on pro-rate basis
+c) $0.10 per alarm per month
+d) $0.50 per custom metric per month
+f) Logs: $0.50 per GB ingested and $0.03 per GB archived per month
