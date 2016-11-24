@@ -1,0 +1,19 @@
+How to use AWS CLI : It makes API calls to services over HTTPS. You can monitor your calls using CloudTrail. Outbound connections on TCP port 443 must be enabled in order to perform calls.
+
+a) Sign up for an aws account
+b) Go to AWS Console -> My account
+
+Access keys consist of an access key ID and secret access key :: Generate IAM access keys in place of root
+
+a) Open IAM console: https://console.aws.amazon.com/iam/ -> Users -> Select or create new and assign poweruser policy
+Note:
+b) Access Id: ********************
+c) Secret Access key: ********************
+
+Install awscli using pip on aws machine :: 
+
+sudo pip install awscli --ignore-installed six
+
+Check system/instance status ::
+
+aws ec2 describe-instance-status
